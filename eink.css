@@ -1,0 +1,61 @@
+/* Define some variables used in multiple places */
+
+.CodeMirror, .CodeMirror-scroll {
+  background-color: #F5F5F5;
+  color: #262626;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+  box-shadow: inset 15px 0 0 0 #000;
+}
+
+.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: #A9A9A9;}
+.cm-number, .cm-attribute, .cm-plus {color: #262626;}
+.cm-def, .cm-property {color: #262626;}
+.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: #262626;}
+.cm-comment {color: #808080;}
+.cm-error, .cm-minus {color: #262626;}
+.cm-header {color: #262626;}
+.cm-link {color: #262626; text-decoration: none;}
+.cm-rangeinfo {color: #262626;}
+.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: #262626;}
+
+/* Extra CSS */
+
+.CodeMirror-cursor {
+  border-left: 1px solid #949494 !important;
+}
+
+.CodeMirror-gutters {
+  background-color: #F5F5F5;
+  border-right: none;
+}
+
+.CodeMirror-linenumber {
+  color: #262626;
+  background: #E5E5E5;
+}
+
+.CodeMirror .CodeMirror-selected {
+  background: white;
+}
+.CodeMirror-focused .CodeMirror-selected {
+  background: #FFF1AA;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+  /* Ensure visibility against gray inline editor background */
+  background-color: white;
+  color: #262626 !important;
+  font-weight: bold;
+}
+
+.CodeMirror-nonmatchingbracket {
+  color: white;
+  background: #733;
+  font-weight: bold;
+}
